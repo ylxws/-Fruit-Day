@@ -1,0 +1,115 @@
+.cart{
+  background: #f5f5f5;
+  color: #888;
+  .empty{
+    text-align: center;
+    height: calc(100vh - 48px);
+    img{
+      width: 66%;
+      margin-top: 30%;
+    }
+    a{
+      font-size: 18px;
+      color: #f93;
+    }
+    p{
+      font-size: 18px;
+    }
+  }
+  .nopro{
+    width: 60%;
+    margin-top: 150px;
+  }
+  .notext{
+
+  }
+  .noempty{
+    text-align: center;
+    height: calc(100vh - 100px);
+    .content{
+      height: 100%;
+      overflow-y: auto;
+    }
+    .address{
+      display: block;
+      height: 84px;
+      line-height: 84px;
+      background: #fff;
+      span{
+        float: left;
+        color: #333;
+        margin-left: 10px;
+        i{
+          color: #ff8000;
+          padding-right: 10px;
+        }
+      }
+      >i{
+        float: right;
+        line-height: 84px;
+        color: #ccc;
+        margin-right: 10px;
+      }
+      .anticon{
+        font-size: 22px;
+      }
+    }
+    .address::before{
+      content: '';
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-image: url(../../public/image/border.png);
+    }
+    .address::after{
+      content: '';
+      display: block;
+      width: 100%;
+      height: 2px;
+      margin-top: 80px;
+      background-image: url(../../public/image/border.png);
+    }
+  }
+  header{
+    border-bottom: 2px solid #e8e8e8;
+    height: 44px;
+    text-align: center;
+    color: #75a739;
+    line-height: 44px;
+    font-size: 18px;
+    background: #fff;
+    padding: 0 10px;
+    i{
+      float: left;
+      line-height: 44px;
+    }
+    span{
+      float: right;
+      color: #75a739;
+      font-size: 14px;
+    }
+  }
+  .account{
+    background: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    position: relative;
+    .ant-btn{
+      background: #ff8000;
+      border: none;
+      height: 100%;
+      color: #fff;
+      font-size: 16px;
+      float: right;
+    }
+    .count{
+      float: left;
+      margin-right: 10px;
+      b{
+        color: #ff8000;
+        font-size: 18px;
+      }
+    }
+  }
+}
